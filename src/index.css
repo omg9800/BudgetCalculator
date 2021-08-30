@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.budget {
+  /* margin-left: 41vw; */
+
+  padding-top: 3vh;
+  /* top: 50%;*/
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+  font-size: 1.5vw;
+  color: white;
+}
+
+.budgetdesc {
+  margin-bottom: 3vh;
+  padding-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 23vw;
+  padding-left: 2.5vw;
+}
+.middle {
+}
+
+.budgetnum {
+  /* padding-left: 5.7vw; */
+  font-size: 2.4vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5vw;
+}
+
+.container {
+  display: flex;
+  width: max-content;
+}
+
+.incontainer {
+  display: flex;
+  background-color: #28b9b5;
+  width: 24vw;
+  height: 6vh;
+  margin-left: 38vw;
+  margin-right: 38vw;
+  margin-top: 6vh;
+  font-size: 1vw;
+}
+
+.excontainer {
+  display: flex;
+  background-color: #ff5049;
+  width: 24vw;
+  height: 6vh;
+  margin-left: 38vw;
+  margin-right: 38vw;
+  margin-top: 1.4vh;
+  margin-bottom: 2vh;
+  font-size: 1vw;
+}
+
+.in {
+  padding-right: 13vw;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  text-align: right;
+}
+
+.inn {
+  padding-top: 1vh;
+}
+
+.ex {
+  margin-right: 12.7vw;
+  padding-top: 1vh;
+  padding-left: 1vw;
+}
+.exn {
+  padding-top: 1vh;
+}
+
+.header {
+  width: 100vw;
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("./back.png");
+  background-size: cover;
+}
+
+.mid {
+  padding-left: 33vw;
+
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: #f1f1f1;
+}
+
+.opt {
+  padding: 0.5vw;
+  margin-right: 1.3vw;
+  border-radius: 4px;
+}
+
+.desc {
+  padding: 0.5vw;
+  margin-right: 1.3vw;
+  border-radius: 4px;
+}
+
+.val {
+  padding: 0.5vw;
+  margin-right: 1.3vw;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 0.5vw;
+}
+
+.bottom {
+  display: flex;
+  font-size: 1.6vw;
+  font-weight: 400;
+  margin-top: 6vh;
+}
+
+.income {
+  margin-left: 20vw;
+  margin-right: 22vw;
+  text-align: center;
+  color: #28b9b5;
+}
+
+.expense {
+  color: #ff5049;
+  margin-right: 10vw;
+  text-align: center;
+}
+
+.list {
+  border-top: 0.1vh solid grey;
+  padding: 0.4vh;
+  /* border-bottom: 0.1vh solid grey; */
+}
+
+.list:last-child {
+  border-bottom: 0.1vh solid grey;
+}
+
+span {
+  color: rgba(19, 14, 14, 0.959);
+  font-size: medium;
+}
+
+@media screen and (max-width: 900px) {
+  .excontainer,
+  .incontainer {
+    font-size: 10px;
+
+    /* width: max-content; */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .budgetdesc {
+    font-size: 15px;
+
+    /* width: max-content; */
+  }
+}
+
+.incbtn {
+  color: #28b9b5;
+  border-color: #28b9b5;
+  border-radius: 60%;
+}
+.btnex {
+  color: #ff5049;
+  border-color: #ff5049;
+  border-radius: 60%;
+}
+
+.numinc {
+  margin-left: 12vw;
+  color: #28b9b5;
+  margin-right: 2vw;
+}
+
+.numex {
+  margin-left: 12vw;
+  color: #ff5049;
+}
+
+.allnav {
+  width: 100vw;
+  height: 8vh;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #28b9b5;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 5vw;
+}
