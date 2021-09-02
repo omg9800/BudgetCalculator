@@ -96,7 +96,7 @@ code {
 .header {
   width: 100vw;
   height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+  background-image: linear-gradient(rgba(0, 0, 95, 0.35), rgba(0, 0, 35, 0.35)),
     url("./back.png");
   background-size: cover;
 }
