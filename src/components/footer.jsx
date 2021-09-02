@@ -31,12 +31,12 @@ class Footer extends Component {
               <li className="list" style={{ listStyle: "none" }}>
                 <span>{n.des}</span> &nbsp;
                 <span className="numex">
-                  {n.num} &nbsp; {n.p !== null ? n.p.toFixed(0) + "%" : "-"}
+                  {n.num} &nbsp; {n.p !== null ? n.p.toFixed(2) + "%" : "-"}
                 </span>
                 &nbsp;
                 <button
                   className="btnex"
-                  onClick={() => this.handleDelete(n.id, 2, n.num)}
+                  onClick={() => handleDelete(n.id, 2, n.num)}
                 >
                   x
                 </button>

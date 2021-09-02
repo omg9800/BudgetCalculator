@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button } from "antd";
 import { CheckOutlined } from "@ant-design/icons";
 
-const Bodyy = (props) => {
+const Body = (props) => {
   const { sel, onChange, des, num, onSubmit } = props;
 
   return (
@@ -59,4 +59,4 @@ const Bodyy = (props) => {
   );
 };
 
-export default Bodyy;
+export default Body;

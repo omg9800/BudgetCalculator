@@ -35,8 +35,8 @@ class Header extends Component {
           <div className="excontainer">
             <div className="ex">Expense</div>
             <div className="exn">
-              {expense.toFixed(2)} &nbsp;{" "}
-              {handleTotal() !== null ? handleTotal().toFixed(0) + "%" : "-"}
+              {expense} &nbsp;{" "}
+              {handleTotal() !== null ? handleTotal().toFixed(2) + "%" : "-"}
             </div>
           </div>
         </div>
