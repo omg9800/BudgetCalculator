@@ -22,7 +22,7 @@ class Header extends Component {
       <div className="header">
         <div className="budget">
           <div className="budgetdesc">
-            Available Budget in {months[d.getMonth()]} {d.getFullYear()}
+            Available Budget in {months[d.getMonth()]} {/* {d.getFullYear()} */}
           </div>
           <div className="budgetnum">{total.toFixed(2)}</div>
         </div>
